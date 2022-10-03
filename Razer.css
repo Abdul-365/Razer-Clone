@@ -1,0 +1,147 @@
+*{
+    font-family: Microsoft JhengHei Light;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #44D62C;
+} 
+.navImg{
+    width: 35px;
+    padding: 12px 32px 12px 32px;
+}
+.navText{
+    padding: 18px 0 18px 0;
+}
+.navText a{
+    color: rgb(157, 157, 157);
+    font-size: 15px;
+    padding: 0px 32px 0px 32px;
+}
+.icons a{
+    color: rgb(157, 157, 157);
+    font-size: 24px !important;
+    font-weight: 100 !important;
+    padding: 18px 32px 18px 32px;
+}
+.navText a:hover, .icons a:hover{
+    color: #ffffff;
+}
+
+.MainContent{
+    margin-top: 92px;
+}
+.MainHeadings{ 
+    text-align: center;
+    color: white;
+}
+.MainHeadings h1{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 300%;
+    color: #44D62C;
+}
+.MainHeadings h3{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 150%;
+}
+.MainHeadings h6{
+    margin-top: 20px;
+    font-size: 17px;
+    display: inline-block;
+}
+.MainHeadings h6:hover{
+    text-decoration: underline;
+}
+.MainHeadings .after{
+    display: inline;
+    color: #44D62C;
+    font-size: 17px;
+}
+.MainImg{
+    display: block;
+    width: 100%;
+    border-bottom: 10px solid rgb(34, 33, 33);
+}
+
+footer{
+    font-size: 11px;
+    background-color:rgb(17, 17, 17);
+    /* overflow: hidden; */
+}
+footer a{
+    font-size: 11px;
+    color: rgb(157, 157, 157);
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footerTop{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    display: flex;
+}
+ul{
+    list-style:none;
+    padding-left:0;
+}
+li{
+    line-height: 30px;
+}
+.footerMain{
+    width: 20%;
+}
+.footerMain h6{
+    font-size: 11px;
+    margin: 0;
+    line-height: 30px;
+    color: white;
+}
+.footerRight{
+    width: 20%;
+    padding-right: 5px;
+    text-align: right;
+    color: #44D62C;
+    padding-top: 5px;
+}
+.footerBottom{
+    display: flex;
+    border-top: 1px solid rgb(66, 66, 66);
+    color: rgb(157, 157, 157);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+}
+.footerBottomLeft{
+    width: 90%;
+}
+.footerBottomLeft pre{
+    display: inline-block;
+}
+.footerBottomRight{
+    text-align: right;
+    padding: 0;
+}
+.footerBottomRight .location{
+    color: white;
+    display: inline-block;
+}
